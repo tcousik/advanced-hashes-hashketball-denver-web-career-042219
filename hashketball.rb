@@ -180,7 +180,7 @@ def player_stats (player_name)
   players[player_name]
 end
 
-def big_shoe_rebounds(player_name)
+def big_shoe_rebounds
   big_shoe_player = players.map do |player_name, player_data|
      player_data[:shoe]
   end
