@@ -182,5 +182,7 @@ end
 
 def big_shoe_rebounds(player_name)
   big_shoe_player = players.map do |player_name, player_data|
-    
+     player_data[:shoe]
+  end
+   rebounds = big_shoe_player[1][:rebounds]
 end
