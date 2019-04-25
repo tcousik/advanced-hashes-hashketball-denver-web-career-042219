@@ -181,5 +181,5 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-  rebounds = big_shoe_player[:rebounds]
+  rebounds = big_shoe_player[1][:rebounds]
 end
