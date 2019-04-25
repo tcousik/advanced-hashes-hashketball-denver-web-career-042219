@@ -180,6 +180,6 @@ def player_stats (player_name)
   players[player_name]
 end
 
-def big_shoe_rebounds
-  rebounds = big_shoe_player[1][:rebounds]
+def big_shoe_rebounds(player_name)
+  big_shoe_player = player_name.map do 
 end
