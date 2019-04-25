@@ -181,7 +181,7 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-  big_shoe_player = players.map do |player_name, player_data|
+  big_shoe_player = players.max_by do |player_name, player_data|
      player_data[:shoe]
   end
    rebounds = big_shoe_player[1][:rebounds]
