@@ -1,4 +1,4 @@
-qrequire "pry"
+require "pry"
 
 def game_hash
     basketball = {
