@@ -181,5 +181,5 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds(player_name)
-  big_shoe_player = player_name.map do 
+  big_shoe_player = players.map do 
 end
